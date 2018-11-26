@@ -12,7 +12,7 @@
     "shopping",
     "cart"
   ],
-  "author": "Ambagol",
+  "author": "",
   "license": "",
   "dependencies": {
     "axios": "^0.16.1",
