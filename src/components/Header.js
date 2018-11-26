@@ -115,8 +115,8 @@ class Header extends Component {
           <div className="brand">
             <img
               className="logo"
-              src="https://res.cloudinary.com/sivadass/image/upload/v1493547373/dummy-logo/Veggy.png"
-              alt="Veggy Brand Logo"
+              src="https://res.cloudinary.com/ambagol/image/upload/v1543219985/Shopping%20Cart/product_images/logo.png"
+              alt="Logo"
             />
           </div>
 
@@ -127,7 +127,7 @@ class Header extends Component {
               onClick={this.handleMobileSearch.bind(this)}
             >
               <img
-                src="https://res.cloudinary.com/sivadass/image/upload/v1494756966/icons/search-green.png"
+                src="https://res.cloudinary.com/ambagol/image/upload/v1543217625/Shopping%20Cart/product_images/search.png"
                 alt="search"
               />
             </a>
@@ -144,14 +144,14 @@ class Header extends Component {
                 onClick={this.handleSearchNav.bind(this)}
               >
                 <img
-                  src="https://res.cloudinary.com/sivadass/image/upload/v1494756030/icons/back.png"
+                  src="https://res.cloudinary.com/ambagol/image/upload/v1543217741/Shopping%20Cart/product_images/Go-back-icon.png"
                   alt="back"
                 />
               </a>
               <input
                 type="search"
                 ref="searchBox"
-                placeholder="Search for Vegetables and Fruits"
+                placeholder="Search"
                 className="search-keyword"
                 onChange={this.props.handleSearch}
               />
@@ -192,7 +192,7 @@ class Header extends Component {
             >
               <img
                 className={this.props.cartBounce ? "tada" : " "}
-                src="https://res.cloudinary.com/sivadass/image/upload/v1493548928/icons/bag.png"
+                src="https://res.cloudinary.com/ambagol/image/upload/v1543219766/Shopping%20Cart/product_images/cart.png"
                 alt="Cart"
               />
               {this.props.totalItems ? (
@@ -212,6 +212,7 @@ class Header extends Component {
                 <button
                   type="button"
                   className={this.state.cart.length > 0 ? " " : "disabled"}
+                  
                 >
                   PROCEED TO CHECKOUT
                 </button>
